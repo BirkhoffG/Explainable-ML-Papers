@@ -11,20 +11,27 @@
   - [2. Interpretable Models](#2-interpretable-models)
     - [Mimic Learning](#mimic-learning)
   - [3. Understanding Black Box Models](#3-understanding-black-box-models)
+    - [Abductive Explanation](#abductive-explanation)
+    - [Counterfactual Explanation](#counterfactual-explanation)
     - [Feature Importance](#feature-importance)
+    - [Generating Explanations](#generating-explanations)
+    - [Self-Explaining Neural Network](#self-explaining-neural-network)
   - [4. Explainable ML for Human](#4-explainable-ml-for-human)
     - [Interactive ML](#interactive-ml)
   - [5. Evaluate Interpretability](#5-evaluate-interpretability)
   - [6. Others](#6-others)
     - [Medical Application](#medical-application)
   - [Useful Resources](#useful-resources)
-    - [Courses](#courses)
+    - [Courses & Talks](#courses--talks)
     - [Toolbox](#toolbox)
   - [Research Groups](#research-groups)
 
 ## 1. General Idea
 
 ### Survey
+
+- A Survey Of Methods For Explaining Black Box Models. *Guidotti et. al., 2018* [pdf](https://arxiv.org/pdf/1802.01933.pdf)
+
 - Techniques for Interpretable Machine Learning. *Du et al. 2018* [pdf](https://arxiv.org/pdf/1808.00033.pdf)
   <details><summary>notes</summary>
 
@@ -48,6 +55,8 @@
 
 - Towards A Rigorous Science of Interpretable Machine Learning. *Doshi-Velez & Kim. 2017* [pdf](https://arxiv.org/pdf/1702.08608.pdf)
 
+- Explaining Explanations in AI. *Mittelstadt et. al., 2018* [pdf](https://arxiv.org/pdf/1811.01439.pdf)
+
 ## 2. Interpretable Models
 
 - Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission. *Caruana et. al., 2015* [pdf](https://dl.acm.org/doi/pdf/10.1145/2783258.2788613) | [InterpretableML](https://github.com/interpretml/interpret)
@@ -61,6 +70,10 @@
   - Rule based
   </details>
 
+- Optimized Scoring Systems: Toward Trust in Machine Learning for Healthcare and Criminal Justice. *Rudin, 2018* [pdf](https://pubsonline.informs.org/doi/pdf/10.1287/inte.2018.0957)
+
+- **Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead.** *Rudin, 2019* [pdf](https://www.nature.com/articles/s42256-019-0048-x.pdf)
+
 ### Mimic Learning
 > Use interpretable models to approximate blackbox learning;  similar to the imitation learning in RL.
 
@@ -72,7 +85,7 @@
 > Post hoc interpretability
 >
 
-- "Why Should I Trust You?" Explaining the Predictions of Any Classifier. *Ribeiro et. al., 2016* [pdf](http://sameersingh.org/files/papers/lime-kdd16.pdf) | [LIME](https://github.com/marcotcr/lime)
+- **"Why Should I Trust You?" Explaining the Predictions of Any Classifier. *Ribeiro et. al., 2016*** [pdf](http://sameersingh.org/files/papers/lime-kdd16.pdf) | [LIME](https://github.com/marcotcr/lime)
 
 - A Unified Approach to Interpreting Model Predictions. Lundberg & Lee, 2017 [pdf](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf) | [SHAP](https://github.com/slundberg/shap)
 
@@ -80,11 +93,41 @@
 
 - Faithful and Customizable Explanations of Black Box Models. *Lakkaraju et. al. 2019* [pdf](https://dl.acm.org/doi/pdf/10.1145/3306618.3314229)
 
+### Abductive Explanation
+
+- **Abduction-Based Explanations for Machine Learning Models. *Ignatiev et. al. 2019*** [AAAI](https://aaai.org/ojs/index.php/AAAI/article/view/3964)
+
+### Counterfactual Explanation
+
+- **Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR. *Wachter et. al., 2017*** [pdf](https://arxiv.org/ftp/arxiv/papers/1711/1711.00399.pdf)
+
+- Counterfactual Visual Explanations. *Goyal et. al., 2019* [pdf](https://arxiv.org/pdf/1904.07451.pdf) 
+
+- The Hidden Assumptions Behind Counterfactual Explanations and Principal Reasons. *Barocas et. al, 2019* [pdf](https://arxiv.org/pdf/1912.04930.pdf)
+
+
 ### Feature Importance
 
 - Permutation importance: a corrected feature importance measure. *Altmann et. al. 2010* [link](https://academic.oup.com/bioinformatics/article/26/10/1340/193348) | [sklearn](https://scikit-learn.org/stable/modules/permutation_importance.html)
 
 
+### Generating Explanations
+> Producing explanations using generative models
+
+- Generative Counterfactual Introspection for Explainable Deep Learning. *Liu et. al., 2019* [pdf](https://arxiv.org/pdf/1907.03077.pdf)
+- Generative causal explanations of black-box classifiers. *O'Shaughnessy et. al., 2020* [pdf](https://arxiv.org/pdf/2006.13913.pdf)
+
+### Self-Explaining Neural Network
+- **Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions. *Li et. al., 2017*** [pdf](https://arxiv.org/pdf/1710.04806.pdf) 
+
+- Towards Robust Interpretability with Self-Explaining Neural Networks. *Alvarez-Melis et. al., 2018* [pdf](http://papers.nips.cc/paper/8003-towards-robust-interpretability-with-self-explaining-neural-networks.pdf) 
+  <details><summary>Other versions</summary>
+
+  - Self-Explaining Neural Networks. *Alvarez-Melis et. al.,* [pdf](http://people.csail.mit.edu/davidam/docs/SENN.pdf)
+  - Self-Explaining Neural Networks: A Review. *Elbaghdadi, et. al., 2020* [blog](https://omarelb.github.io/self-explaining-neural-networks/) | [report](https://amanhussain.com/files/Self_Explaining_Neural_Networks_A_review_with_Extensions.pdf)
+  </details>
+
+- Self-explaining AI as an Alternative to Interpretable AI. *Elton, 2020* [preprint](https://www.researchgate.net/publication/339228221_Self-explaining_AI_as_an_alternative_to_interpretable_AI)
 
 ## 4. Explainable ML for Human
 
@@ -126,9 +169,10 @@
 
 ## Useful Resources
 
-### Courses
+### Courses & Talks
 
-- [Interpretability and Explainability in Machine Learning, Fall 2019](https://interpretable-ml-class.github.io/) @ Harvard University (Hima Lakkaraju)
+- Interpretability and Explainability in Machine Learning, Fall 2019 *@ Harvard University by Hima Lakkaraju* [Course](https://interpretable-ml-class.github.io/)
+- Model Explainability Forum *by TWIML AI Podcast* [YouTube](https://www.youtube.com/watch?v=B2QBnVnbt7A) | [link](https://twimlai.com/2020-model-explainability-forum/)
 
 ### Toolbox
 
