@@ -9,6 +9,8 @@
     - [Survey](#survey)
     - [Understanding Interpretability](#understanding-interpretability)
   - [2. Interpretable Models](#2-interpretable-models)
+    - [Generalized Addictive Model](#generalized-addictive-model)
+    - [Rule-based Method](#rule-based-method)
     - [Mimic Learning](#mimic-learning)
   - [3. Understanding Black Box Models](#3-understanding-black-box-models)
     - [Abductive Explanation](#abductive-explanation)
@@ -39,6 +41,10 @@
   - post-hoc global explanation, and post-hoc local explanation
   </details>
 
+- Personalized explanation in machine learning: A conceptualization. *Schneider & Handali, 2019* [pdf](https://arxiv.org/ftp/arxiv/papers/1901/1901.00770.pdf)
+
+- Explanation in artificial intelligence: Insights from the social sciences. *Miller, 2019* [pdf](https://www.sciencedirect.com/science/article/pii/S0004370218305988)
+
 - **Explaining Explanations: An Overview of Interpretability of Machine Learning. *Gilpin et al. 2019*** [pdf](https://arxiv.org/pdf/1806.00069.pdf)
   <details><summary>notes</summary>
 
@@ -48,6 +54,8 @@
   </details>
 
 - **Interpretable machine learning: definitions, methods, and applications. *Murdoch et al. 2019*** [pdf](https://arxiv.org/pdf/1901.04592v1.pdf) 
+
+- Opportunities and Challenges in Explainable Artificial Intelligence (XAI): A Survey. *Das & Rad, 2020* [pdf](https://arxiv.org/pdf/2006.11371.pdf)
 
 ### Understanding Interpretability
 
@@ -59,20 +67,23 @@
 
 ## 2. Interpretable Models
 
+- **Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead.** *Rudin, 2019* [pdf](https://www.nature.com/articles/s42256-019-0048-x.pdf)
+
+### Generalized Addictive Model
+
 - Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission. *Caruana et. al., 2015* [pdf](https://dl.acm.org/doi/pdf/10.1145/2783258.2788613) | [InterpretableML](https://github.com/interpretml/interpret)
-  <details><summary>notes</summary>
 
-  - GAM-based
-  </details>
+- Neural Additive Models: Interpretable Machine Learning with Neural Nets. *Agarwal et. al., 2020* [pdf](http://arxiv.org/pdf/2004.13912.pdf)
+
+- How Interpretable and Trustworthy are GAMs? *Chang et. al., 2020* [pdf](http://arxiv.org/pdf/2006.06466.pdf)
+
+### Rule-based Method
+- Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model. *Letham et. al., 2015* [pdf](https://arxiv.org/pdf/1511.01644.pdf)
+
 - Interpretable Decision Sets: A Joint Framework for Description and Prediction. *Lakkaraju et. al., 2016* [pdf](https://dl.acm.org/doi/pdf/10.1145/2939672.2939874)
-  <details><summary>notes</summary>
-
-  - Rule based
-  </details>
 
 - Optimized Scoring Systems: Toward Trust in Machine Learning for Healthcare and Criminal Justice. *Rudin, 2018* [pdf](https://pubsonline.informs.org/doi/pdf/10.1287/inte.2018.0957)
 
-- **Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead.** *Rudin, 2019* [pdf](https://www.nature.com/articles/s42256-019-0048-x.pdf)
 
 ### Mimic Learning
 > Use interpretable models to approximate blackbox learning;  similar to the imitation learning in RL.
