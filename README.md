@@ -1,6 +1,8 @@
 # Papers on Explainable Machine Learning
 
-> Motivated from this [GitHub repository](https://github.com/anguyen8/XAI-papers) with different focus. Papers marked in **bold** are recommended by myself.
+> This repository includes a collection of awesome research papers on Explainable ML. It is particularly helpful for researchers to get started in this emerging field. Please raise an [issue](https://github.com/BirkhoffG/Explainable-ML-Papers/issues) if you have any comments or suggestions.
+
+> Papers marked in **bold** are recommended by myself.
 
 ## Table of Content
 - [Papers on Explainable Machine Learning](#papers-on-explainable-machine-learning)
@@ -21,6 +23,7 @@
   - [4. Explainable ML for Human](#4-explainable-ml-for-human)
     - [Interactive ML](#interactive-ml)
   - [5. Evaluate Interpretability](#5-evaluate-interpretability)
+    - [Robust Explanation](#robust-explanation)
   - [6. Others](#6-others)
     - [Medical Application](#medical-application)
   - [Useful Resources](#useful-resources)
@@ -71,6 +74,8 @@
 
 ### Generalized Addictive Model
 
+- Accurate intelligible models with pairwise interactions. *Lou et. al., 2013* [pdf](http://www.cs.cornell.edu/~yinlou/papers/lou-kdd13.pdf)
+
 - Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission. *Caruana et. al., 2015* [pdf](https://dl.acm.org/doi/pdf/10.1145/2783258.2788613) | [InterpretableML](https://github.com/interpretml/interpret)
 
 - Neural Additive Models: Interpretable Machine Learning with Neural Nets. *Agarwal et. al., 2020* [pdf](http://arxiv.org/pdf/2004.13912.pdf)
@@ -90,6 +95,7 @@
 
 - Distilling Knowledge from Deep Networks with Applications to Healthcare Domain. *Che el. al. 2015* [pdf](https://arxiv.org/pdf/1512.03542.pdf) 
 - GENESIM: genetic extraction of a single, interpretable model. *Vandewiele et. al. 2016* [pdf](https://arxiv.org/pdf/1611.05722.pdf)
+- Distill-and-Compare: Auditing Black-Box Models Using Transparent Model Distillation. *Tan et. al., 2018* [pdf](https://arxiv.org/pdf/1710.06169.pdf)
 
 ## 3. Understanding Black Box Models
 
@@ -146,6 +152,8 @@
 
 - Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda. *Abdul et. al., 2018* [pdf](https://www.cs.ubc.ca/~conati/522/532b-2019/papers/LinExplanationSurveyCHI2018Survey.pdf)
 
+- How do Humans Understand Explanations from Machine Learning Systems? An Evaluation of the Human-Interpretability of Explanation. *Narayanan et. al., 2018* [pdf](https://arxiv.org/pdf/1802.00682.pdf)
+
 - Interpreting Interpretability: Understanding Data Scientists' Use of Interpretability Tools for Machine Learning. *Kaur et. al., 2019* [pdf](https://dl.acm.org/doi/pdf/10.1145/3313831.3376219)
 
 - Explaining models: an empirical study of how explanations impact fairness judgment. *Dodge et. al., 2019* [pdf](https://arxiv.org/pdf/1901.07694.pdf)
@@ -163,10 +171,20 @@
 
 ## 5. Evaluate Interpretability
 
+- Quantifying Interpretability and Trust in Machine Learning Systems. *Schmidt & Biessmann, 2019* [pdf](https://arxiv.org/ftp/arxiv/papers/1901/1901.08558.pdf)
+
+- The Price of Interpretability. *Bertsimas et. al., 2019* [pdf](http://www.mit.edu/~jaillet/general/1907.03419.pdf)
+
 - Human Evaluation of Models Built for Interpretability.  *Lage et. al., 2019* [pdf](https://aaai.org/ojs/index.php/HCOMP/article/view/5280/5132)
 
 - Beyond Accuracy: Behavioral Testing of NLP Models with Checklist. *Ribeiro et. al., 2020* [pdf](https://arxiv.org/pdf/2005.04118.pdf) @ ACL 2020 Best Paper
 
+
+### Robust Explanation
+
+- Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods. *Slack et. al., 2020* [pdf](https://arxiv.org/pdf/1911.02508.pdf)
+
+- Robust and Stable Black Box Explanations. *Lakkaraju et. al., 2020* [pdf](https://proceedings.icml.cc/static/paper_files/icml/2020/5945-Paper.pdf)
 
 ## 6. Others
 
@@ -184,6 +202,7 @@
 
 - Interpretability and Explainability in Machine Learning, Fall 2019 *@ Harvard University by Hima Lakkaraju* [Course](https://interpretable-ml-class.github.io/)
 - Model Explainability Forum *by TWIML AI Podcast* [YouTube](https://www.youtube.com/watch?v=B2QBnVnbt7A) | [link](https://twimlai.com/2020-model-explainability-forum/)
+- XAI-Papers [GitHub](https://github.com/anguyen8/XAI-papers)
 
 ### Toolbox
 
