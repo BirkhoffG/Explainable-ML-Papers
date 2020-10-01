@@ -70,6 +70,8 @@
 
 ## 2. Interpretable Models
 
+- To Explain or to Predict?. *Galit Shmueli, 2010* [pdf](https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf)
+
 - **Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead.** *Rudin, 2019* [pdf](https://www.nature.com/articles/s42256-019-0048-x.pdf)
 
 ### Generalized Addictive Model
