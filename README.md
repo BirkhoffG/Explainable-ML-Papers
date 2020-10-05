@@ -106,7 +106,11 @@
 
 - **"Why Should I Trust You?" Explaining the Predictions of Any Classifier. *Ribeiro et. al., 2016*** [pdf](http://sameersingh.org/files/papers/lime-kdd16.pdf) | [LIME](https://github.com/marcotcr/lime)
 
+- Examples are not enough, learn to criticize! Criticism for Interpretability. *Kim et. al., 2016* [pdf](https://beenkim.github.io/papers/KIM2016NIPS_MMD.pdf)
+
 - A Unified Approach to Interpreting Model Predictions. Lundberg & Lee, 2017 [pdf](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf) | [SHAP](https://github.com/slundberg/shap)
+
+- Anchors: High-Precision Model-Agnostic Explanations. *Ribeiro et. al. 2018* [pdf](https://homes.cs.washington.edu/~marcotcr/aaai18.pdf)
 
 - Interpretability Beyond Feature Attribution:  Quantitative Testing with Concept Activation Vectors (TCAV), *Kim et. al. 2018* [pdf](http://proceedings.mlr.press/v80/kim18d/kim18d.pdf)
 
@@ -183,6 +187,8 @@
 
 
 ### Robust Explanation
+
+- Interpretation of Neural Networks Is Fragile. *Ghorbani et. al., 2019* [pdf](https://www.aaai.org/ojs/index.php/AAAI/article/view/4252)
 
 - Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods. *Slack et. al., 2020* [pdf](https://arxiv.org/pdf/1911.02508.pdf)
 
