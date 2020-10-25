@@ -112,9 +112,13 @@
 
 - Anchors: High-Precision Model-Agnostic Explanations. *Ribeiro et. al. 2018* [pdf](https://homes.cs.washington.edu/~marcotcr/aaai18.pdf)
 
+- Open the Black BoxData-Driven Explanation of Black Box Decision Systems. *Pedreschi et al.* [pdf](https://arxiv.org/pdf/1806.09936.pdf) 
+
 - Interpretability Beyond Feature Attribution:  Quantitative Testing with Concept Activation Vectors (TCAV), *Kim et. al. 2018* [pdf](http://proceedings.mlr.press/v80/kim18d/kim18d.pdf)
 
 - Faithful and Customizable Explanations of Black Box Models. *Lakkaraju et. al. 2019* [pdf](https://dl.acm.org/doi/pdf/10.1145/3306618.3314229)
+
+- Explaining Deep Neural Networks. *Camburu, 2020* [pdf](https://arxiv.org/pdf/2010.01496.pdf)
 
 ### Abductive Explanation
 
@@ -128,6 +132,9 @@
 
 - The Hidden Assumptions Behind Counterfactual Explanations and Principal Reasons. *Barocas et. al, 2019* [pdf](https://arxiv.org/pdf/1912.04930.pdf)
 
+- **Explaining Machine Learning Classifiers through Diverse Counterfactual Explanations**. *Mothilal et al., 2019* [pdf](https://arxiv.org/pdf/1905.07697.pdf)
+
+- Multi-Objective Counterfactual Explanations. *DandlEmail et al., 2020* [link](https://link.springer.com/chapter/10.1007/978-3-030-58112-1_31)
 
 ### Feature Importance
 
@@ -141,7 +148,9 @@
 - Generative causal explanations of black-box classifiers. *O'Shaughnessy et. al., 2020* [pdf](https://arxiv.org/pdf/2006.13913.pdf)
 
 ### Self-Explaining Neural Network
-- **Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions. *Li et. al., 2017*** [pdf](https://arxiv.org/pdf/1710.04806.pdf) 
+- Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions. *Li et. al., 2017* [pdf](https://arxiv.org/pdf/1710.04806.pdf) 
+
+- This Looks Like That: Deep Learning for Interpretable Image Recognition. *Chen et al., 2019* [pdf](http://arxiv.org/abs/1806.10574)
 
 - Towards Robust Interpretability with Self-Explaining Neural Networks. *Alvarez-Melis et. al., 2018* [pdf](http://papers.nips.cc/paper/8003-towards-robust-interpretability-with-self-explaining-neural-networks.pdf) 
   <details><summary>Other versions</summary>
@@ -149,6 +158,8 @@
   - Self-Explaining Neural Networks. *Alvarez-Melis et. al.,* [pdf](http://people.csail.mit.edu/davidam/docs/SENN.pdf)
   - Self-Explaining Neural Networks: A Review. *Elbaghdadi, et. al., 2020* [blog](https://omarelb.github.io/self-explaining-neural-networks/) | [report](https://amanhussain.com/files/Self_Explaining_Neural_Networks_A_review_with_Extensions.pdf)
   </details>
+
+- Learning to Explain With Complemental Examples. *Kanehira & Harada, 2019* [pdf](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kanehira_Learning_to_Explain_With_Complemental_Examples_CVPR_2019_paper.pdf)
 
 - Self-explaining AI as an Alternative to Interpretable AI. *Elton, 2020* [preprint](https://www.researchgate.net/publication/339228221_Self-explaining_AI_as_an_alternative_to_interpretable_AI)
 
@@ -167,6 +178,8 @@
 - Human-Centered Tools for Coping with Imperfect Algorithms During Medical Decision-Making. *Cai et. al, 2019* [pdf](https://dl.acm.org/doi/pdf/10.1145/3290605.3300234)
 
 - **Designing Theory-Driven User-Centric Explainable AI. *Wang et. al., 2019*** [pdf](https://dl.acm.org/doi/pdf/10.1145/3290605.3300831)
+
+- Can we do better explanations? A proposal of User-Centered Explainable AI. *Ribera & Lapedriza, 2019* [pdf](http://ceur-ws.org/Vol-2327/IUI19WS-ExSS2019-12.pdf)
 
 - Designing Alternative Representations of Confusion Matrices to Support Non-Expert Public Understanding of Algorithm Performance. Shen et. al., 2020 [pdf](https://www.andrew.cmu.edu/user//hongs/files/CM_CSCW2020.pdf)
 
