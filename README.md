@@ -24,7 +24,8 @@
   - [5. Evaluate Interpretability](#5-evaluate-interpretability)
     - [Robust Explanation](#robust-explanation)
   - [6. Others](#6-others)
-    - [Medical Application](#medical-application)
+    - [Human-AI Interaction](#human-ai-interaction)
+    - [Applications](#applications)
   - [Useful Resources](#useful-resources)
     - [Courses & Talks](#courses--talks)
     - [Toolbox](#toolbox)
@@ -139,6 +140,7 @@
 
 - Interpretability Beyond Feature Attribution:  Quantitative Testing with Concept Activation Vectors (TCAV), *Kim et. al. 2018* [pdf](http://proceedings.mlr.press/v80/kim18d/kim18d.pdf)
 
+- Deep Weighted Averaging Classifiers. *Card et al., 2019* [pdf](http://arxiv.org/pdf/1811.02579.pdf)
 
 ### Feature-based Explanation
 
@@ -214,7 +216,13 @@
 
 ## 6. Others
 
-### Medical Application
+### Human-AI Interaction
+
+- Human Decisions and Machine Predictions. *Kleinberg et al., 2018* [pdf](https://academic.oup.com/qje/article/133/1/237/4095198)
+
+### Applications
+
+- A Machine Learning Framework to Identify Students at Risk of Adverse Academic Outcomes. *Lakkaraju et al., 2015* [pdf](http://www.dssgfellowship.org/wp-content/uploads/2016/04/montogmery-kd2015.pdf) | [acm](https://dl.acm.org/doi/10.1145/2783258.2788620)
 
 - AdaCare: Explainable Clinical Health Status Representation Learning via Scale-Adaptive Feature Extraction and Recalibration. Ma et. al., 2020 [pdf](https://www.aaai.org/ojs/index.php/AAAI/article/download/5427/5283)
 
