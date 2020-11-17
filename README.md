@@ -120,11 +120,15 @@
 
 - **Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR. *Wachter et. al., 2017*** [pdf](https://arxiv.org/ftp/arxiv/papers/1711/1711.00399.pdf)
 
+- Explanations based on the Missing: Towards Contrastive Explanations with Pertinent Negatives. *Dhurandhar et al., 2018* [pdf](https://arxiv.org/pdf/1802.07623.pdf)
+
 - Counterfactual Visual Explanations. *Goyal et. al., 2019* [pdf](https://arxiv.org/pdf/1904.07451.pdf) 
 
 - The Hidden Assumptions Behind Counterfactual Explanations and Principal Reasons. *Barocas et. al, 2019* [pdf](https://arxiv.org/pdf/1912.04930.pdf)
 
 - **Explaining Machine Learning Classifiers through Diverse Counterfactual Explanations**. *Mothilal et al., 2019* [pdf](https://arxiv.org/pdf/1905.07697.pdf)
+
+- Efficient Search for Diverse Coherent Explanations. *Russell, 2019* [pdf](https://arxiv.org/pdf/1901.04909.pdf)
 
 - Generative Counterfactual Introspection for Explainable Deep Learning. *Liu et. al., 2019* [pdf](https://arxiv.org/pdf/1907.03077.pdf)
 
@@ -133,6 +137,8 @@
 - Preserving Causal Constraints in Counterfactual Explanations for Machine Learning Classifiers. *Mahajan et al., 2020* [pdf](http://arxiv.org/pdf/1912.03277.pdf)
 
 - Multi-Objective Counterfactual Explanations. *DandlEmail et al., 2020* [link](https://link.springer.com/chapter/10.1007/978-3-030-58112-1_31)
+
+- **Counterfactual Explanations for Machine Learning: A Review**. *Verma et al., 2020* [pdf](https://arxiv.org/pdf/2010.10596.pdf)
 
 ### Example-based Explanation
 
@@ -217,6 +223,8 @@
 ## 6. Others
 
 ### Human-AI Interaction
+
+- Human-centered Machine Learning: a Machine-in-the-loop Approach. *Tan, 2018* [blog](https://medium.com/@ChenhaoTan/human-centered-machine-learning-a-machine-in-the-loop-approach-ed024db34fe7)
 
 - Human Decisions and Machine Predictions. *Kleinberg et al., 2018* [pdf](https://academic.oup.com/qje/article/133/1/237/4095198)
 
