@@ -67,6 +67,8 @@
 
 - Explaining Explanations in AI. *Mittelstadt et. al., 2018* [pdf](https://arxiv.org/pdf/1811.01439.pdf)
 
+- Explanation from Specification. *Naik & Turán, 2020* [pdf](https://arxiv.org/pdf/2012.07179v1.pdf)
+
 ## 2. Interpretable Models
 
 - To Explain or to Predict?. *Galit Shmueli, 2010* [pdf](https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf)
@@ -140,6 +142,8 @@
 
 - **Counterfactual Explanations for Machine Learning: A Review**. *Verma et al., 2020* [pdf](https://arxiv.org/pdf/2010.10596.pdf)
 
+- Algorithmic Recourse: from Counterfactual Explanations to Interventions. *Karimi et al., 2021* [pdf](https://arxiv.org/pdf/2002.06278.pdf)
+
 ### Example-based Explanation
 
 - Examples are not enough, learn to criticize! Criticism for Interpretability. *Kim et. al., 2016* [pdf](https://beenkim.github.io/papers/KIM2016NIPS_MMD.pdf)
@@ -164,6 +168,7 @@
 - Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions. *Li et. al., 2017* [pdf](https://arxiv.org/pdf/1710.04806.pdf) 
 
 - This Looks Like That: Deep Learning for Interpretable Image Recognition. *Chen et al., 2019* [pdf](http://arxiv.org/abs/1806.10574)
+  - This Looks Like That, Because ... Explaining Prototypes for Interpretable Image Recognition. *Nauta et al., 2020* [pdf](https://arxiv.org/pdf/2011.02863.pdf)
 
 - Towards Robust Interpretability with Self-Explaining Neural Networks. *Alvarez-Melis et. al., 2018* [pdf](http://papers.nips.cc/paper/8003-towards-robust-interpretability-with-self-explaining-neural-networks.pdf) 
   <details><summary>Other versions</summary>
