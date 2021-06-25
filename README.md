@@ -1,8 +1,8 @@
 # Papers on Explainable Machine Learning
 
-> This repository includes a collection of awesome research papers on **Explainable Machine Learning** (also referred as Explainable AI/XAI, Interpretable Machine Learning). As a rapidly emerging field, it can be frustrated when starting researching this field buried by enormous amount of papers (and un-unified terminologies). I hope this repository can help new ML researchers/practitioners to learn about this field with lesser pain and stress.
->
-> Unlike most repositories you find in GitHub which maintain a comprehensive list of resources in Explainable ML, I try to keep this list short to make it less intimating for beginners. It is definitely an objective selection which is based on my preferences and research tastes. 
+This repository includes a collection of awesome research papers on **Explainable Machine Learning** (also referred as Explainable AI/XAI, Interpretable Machine Learning). As a rapidly emerging field, it can be frustrated when starting researching this field buried by enormous amount of papers (and un-unified terminologies). I hope this repository can help new ML researchers/practitioners to learn about this field with lesser pain and stress.
+
+Unlike most repositories you find in GitHub which maintain a comprehensive list of resources in Explainable ML, I try to keep this list short to make it less intimating for beginners. It is definitely an objective selection which is based on my preferences and research tastes. 
 
 > Papers marked in **bold** are highly recommended to read.
 
